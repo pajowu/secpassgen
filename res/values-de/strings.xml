@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecPassGen</string>
+    <string name="hashroundbar_wv">Anzahl der Hasing-Runden: </string>
+    <string name="pwlenght_wv">Länge des Passwortes: </string>
+    <string name="dec_master_key">Entschlüssele Master-Passwort</string>
+    <string name="enter_pin">PIN eingeben:</string>
+    <string name="ok">OK</string>
+    <string name="loading">Lade. Bitte warten...</string>
+    <string name="wrong_pin">Falsche PIN</string>
+    <string name="wrong_pin_message">Du hast die falsche PIN eingegeben.</string>
+
+    <string name="change_master_key">Master-Passwort ändern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="set_master_password">Master-Passwort setzen</string>
+    <string name="set_master_password_message">Du musst das gleiche Passwort auf allen Geräten eingeben, um das selbe Ergebniss zu bekommen.</string>
+
+
+    <string name="copy2clipboard">In die Zwischenablage kopieren</string>
+    <string name="done">Fertig</string>
+    <string name="not_compatible">Nicht Kompatibel</string>
+    <string name="not_compatible_message">Diese App ist nicht mit deinem Gerät kompatibel. Bitte kontaktiere den Entwickler.</string>
+    <string name="password">Passwort</string>
+    <string name="set_pin_message">Bitte gib eine PIN ein. Diese PIN wird genutzt, um das Master-Passwort zu verschlüsseln, damit du nur die PIN, nicht aber das Passwort eingeben musst.</string>
+    <string name="set_service_id_message">Bitte gib die Dienstbezeichnung ein. Diese wird nur solange gespeichert, bis du die App beendest.</string>
+    <string name="set_service_id">Dienstbezeichnung setzen</string>
+    <string name="hashroundbar">Anzahl der Hasing-Runden: 10000</string>
+    <string name="pwlength">Länge des Passwortes: 64</string>
+    <string name="choose_service">Dienstbezeichnung wählen</string>
+    <string name="generate_password">Passwort erzeugen</string>
+    <string name="set_pin">PIN setzen</string>
+    
+
+</resources>

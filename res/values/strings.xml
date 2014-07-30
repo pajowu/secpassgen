@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecPassGen</string>
+    <string name="not_compatible_message">This App is not Compatible with you device. Contact the dev.</string>
+    <string name="wrong_pin_message">You entered the wrong PIN.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="change_master_key">Change Master Password</string>
+    <string name="copy2clipboard">Copy to Clipboard</string>
+    <string name="dec_master_key">Decoding Master Password</string>
+    <string name="done">Done</string>
+    <string name="enter_pin">Enter PIN:</string>
+    <string name="hashroundbar_wv">Number of hashing rounds: </string>
+    <string name="loading">Loading. Please wait...</string>
+    <string name="not_compatible">Not Compatible</string>
+    <string name="ok">Ok</string>
+    <string name="password">Password</string>
+    <string name="pwlenght_wv">Length of password: </string>
+    <string name="set_master_password_message">Please enter your Master Password, you need to enter the same password to get the same Service Password.</string>
+    <string name="set_master_password">Set Master Password</string>
+    <string name="set_pin_message">Please enter a PIN. This pin will be used to encrypt your master password (AES, should be safe), so you only have to enter the PIN, not the master password.</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="set_service_id_message">Enter the identifier for the Service. This will not be saved if you quit the app.</string>
+    <string name="set_service_id">Set Service identifier</string>
+    <string name="wrong_pin">Wrong PIN</string>
+        <string name="hashroundbar">Number of hashing rounds: 10000</string>
+        <string name="pwlength">Lenght of password: 64</string>
+        <string name="choose_service">Choose Service</string>
+        <string name="generate_password">Generate Password</string>
+
+</resources>

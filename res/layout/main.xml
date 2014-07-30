@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hashroundtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hashroundbar" />
+
+    <SeekBar
+        android:id="@+id/hashroundbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200000" />
+    <TextView
+        android:id="@+id/lengthbartext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pwlength" />
+
+    <SeekBar
+        android:id="@+id/lengthbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="63"
+        android:progress="63" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <View android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp" 
+            android:layout_centerHorizontal="true"/>
+            <Button
+                android:id="@+id/masterpwbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:text="@string/set_master_password" />
+            <Button
+                android:id="@+id/serviceidbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/strut"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@id/masterpwbtn"
+                android:layout_alignBottom="@id/masterpwbtn"
+                android:text="@string/choose_service"
+                android:enabled="false"/>
+        </RelativeLayout>
+            <Button
+                android:id="@+id/genpwbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/generate_password"
+                android:enabled="false"/>
+    
+
+
+
+</LinearLayout>
